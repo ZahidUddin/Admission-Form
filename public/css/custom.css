@@ -1,0 +1,43 @@
+.navbar-brand {
+    display: contents;
+}
+.bgimg-1 {
+    background-image: url(/images/nub.jpg);
+    min-height: 40vh;
+    position: relative;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(50%);
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #0f5586;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+@media (max-width: 992px) {
+    .navbar .container a img {
+        width: 80%;
+    }
+
+    .caption span.border {
+        padding: 15px;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+}
